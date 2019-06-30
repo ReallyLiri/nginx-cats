@@ -39,6 +39,6 @@ Navigating to `http://localhost` will give us the default nginx welcome page
 
 ![welcome](https://i.imgur.com/CWbPHHo.png)
 
-Bug triggering 404 (i.e navigating to `http://loclahost/cat`) will retrieve our custom error page:
+But triggering 404 (i.e navigating to `http://loclahost/foo`) will retrieve our custom error page:
 
-![404](https://imgur.com/GdYN78d.png)
+![404](https://imgur.com/hbcNoDm.png)
