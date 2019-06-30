@@ -4,6 +4,12 @@ Wrapper to [nginx](https://hub.docker.com/_/nginx) docker image that supplies ht
 
 The build is obvisouly hardcoded to a specific nginx release, currently set to `1.15.8`.
 
+## Docker Image
+
+[![](https://images.microbadger.com/badges/version/reallyliri/nginx-cats.svg)](https://microbadger.com/images/reallyliri/nginx-cats "Get your own version badge on microbadger.com")
+
+Available on [Dockerhub](https://hub.docker.com/r/reallyliri/nginx-cats) or by pulling `reallyliri/nginx-cats:1.15.8`.
+
 ## How it works
 
 nginx has a built in fallback page per error code. We simply need to add the following to our nginx configuration file:
